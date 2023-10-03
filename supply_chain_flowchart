@@ -1,0 +1,14 @@
+// Supply Chain Flowchart
+digraph {
+	S [label=Supplier]
+	M [label=Manufacturer]
+	D [label=Distributor]
+	R [label=Retailer]
+	C [label=Customer]
+	S -> D
+	D -> M
+	D -> R
+	R -> C
+	rankdir=LR
+	dpi=300
+}
